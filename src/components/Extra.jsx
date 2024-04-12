@@ -14,10 +14,10 @@ function Extra() {
           <div className='w-[50px] h-[50px] rounded-full bg-white flex items-center justify-center'>
             <WiHumidity size='4rem' className='z-2 text-[#57aaff]'/>
           </div>
-          <p className='font-semibold text-xl 2xl:text-4xl'>
+          <p className='font-semibold text-xl'>
             Humidity
           </p>
-          <p className='text-2xl 2xl:text-4xl'>
+          <p className='text-2xl'>
             {weatherUpdates && weatherUpdates.main.humidity}
           </p>
       </div>
@@ -25,10 +25,10 @@ function Extra() {
         <div className='w-[50px] h-[50px] rounded-full bg-white flex items-center justify-center'>
           <MdOutlineCompress size='4rem' className='text-[#57aaff] p-2'/>
         </div>
-        <p className='font-semibold text-lg 2xl:text-4xl'>
+        <p className='font-semibold text-lg'>
           Pressure
         </p>
-        <p className='text-2xl 2xl:text-4xl'>
+        <p className='text-2xl'>
           {weatherUpdates && weatherUpdates.main.pressure}
         </p>
       </div>
@@ -36,10 +36,10 @@ function Extra() {
         <div className='w-[50px] h-[50px] rounded-full bg-white flex items-center justify-center p-2'>
           <FaWind  size='4rem' className='text-[#9ade89]'/>
         </div>
-        <p className='font-semibold text-lg text-center 2xl:text-4xl'>
+        <p className='font-semibold text-lg text-center'>
           Wind Speed
         </p>
-        <p className='text-2xl 2xl:text-4xl'>
+        <p className='text-2xl'>
           {weatherUpdates && weatherUpdates.wind.speed}
         </p>
       </div>
